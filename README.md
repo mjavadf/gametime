@@ -7,7 +7,7 @@
 - **Mohammad Javad Farokhi Darani**: Data collection, data preprocessing, analysis, and visualization.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/mjavadf/gametime/blob/main/LICENSE) file for details.
 
 ## Description
 This project analyzes video game data from the RAWG database, exploring trends in game genres and platforms over the decades. The RAWG dataset includes detailed information on games, such as their release dates, genres, and platforms.
@@ -30,4 +30,4 @@ pip install pandas matplotlib numpy plotnine
 To reproduce the analysis, run the provided Jupyter notebook. The notebook includes detailed steps for data preprocessing, analysis, and visualization.
 
 ## Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mjavadf/gametime/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mjavadf/gametime/HEAD?filepath=game_time.ipynb)
