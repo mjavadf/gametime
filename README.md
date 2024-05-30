@@ -12,13 +12,16 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Description
 This project analyzes video game data from the RAWG database, exploring trends in game genres and platforms over the decades. The RAWG dataset includes detailed information on games, such as their release dates, genres, and platforms.
 
-### Dataset
-The RAWG dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/jummyegg/rawg-game-dataset).
+### Datasets
+- The `rawg` dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/jummyegg/rawg-game-dataset).
+- The `rawg_by_metric` is scraped from [RAWG database](https://api.rawg.io/docs/)
+- The `vgsales` datas is sourced from [Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales)
 
 ### Analysis
-The analysis focuses on:
-- The most popular game genres in each decade.
-- The changes in game genre popularity over time.
+The analysis focuses on answering these questions:
+- What are the most popular game genres in each decade, and how has this changed over time?
+- Are there any genres that are exclusive to specific platforms?
+- Can we identify trends or patterns in the rise and fall of different genres?
 
 ## Installation
 To install the necessary dependencies, run the following command:
